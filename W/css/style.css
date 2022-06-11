@@ -20,10 +20,58 @@ body{
 }
 .contentbox1{
     display: grid;
-    grid-template-columns: 250px 1fr;
-    justify-self: start;
+    box-shadow: 5px;
+    box-sizing: border-box;  
 
 }
+#coffee_1{
+    width: 200px;
+    height: 175px;
+}
+#box1{
+    box-sizing: content-box 250px;
+    box-shadow: inset;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    size: 250px;
+}
+.contentbox2{
+    display: grid;
+    box-shadow: 5px;
+    box-sizing: border-box;
 
+}
+#coffee_2{
+    width: 200px;
+    height: 175px;
+
+}
+#box2{
+    box-sizing: content-box 250px;
+    box-shadow: inset;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 250px;
+
+}
+.contentbox3{
+    display: grid;
+    box-shadow: 5px;
+    box-sizing: border-box;
+
+}
+#coffee_3{
+    width: 200px;
+    height: 175px;
+
+}
+#box3{
+    box-sizing: content-box 250px;
+    box-shadow: inset;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 250px;
+}
 
 
